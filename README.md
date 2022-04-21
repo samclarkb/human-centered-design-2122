@@ -38,7 +38,7 @@ Mocht je er zelf wat aan toe willen voegen, neem vooral je tijd!
 ``` git clone https://github.com/samclarkb/browser-technologies-2122.git ```
 
 ## :mag_right: Recources 
-- 
+- https://axesslab.com/what-is-a-screen-reader/
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/human-centered-design-2122/blob/main/LICENSE)
