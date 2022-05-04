@@ -10,14 +10,13 @@ const saveFormInput = () => {
 
 	if (input.value.lenght > 10) {
 		document.getElementById('result').textContent =
-			'Notities van training: ' + input.value + ' Larissa, je had beter thuis kunnen blijven'
+			' Larissa, je had deze dag beter thuis kunnen blijven ' + input.value
 	} else if (input.value.lenght > 20) {
 		document.getElementById('result').textContent =
-			'Notities van training: ' +
-			input.value +
-			' Larissa, zo komt die tweede gouden plak er niet hoor'
+			' Larissa, zo komt die tweede gouden plak er niet hoor' + input.value
 	} else {
 		document.getElementById('result').textContent =
-			'Notities van training: ' + input.value + ' Dit lijkt er meer op'
+			' De resultaten zijn nog niet om naar huis te schrijven, maar het is meer dan ik gewend ben van je ' +
+			input.value
 	}
 }
