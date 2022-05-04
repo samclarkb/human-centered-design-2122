@@ -497,7 +497,7 @@ button {
 
 .bounce:focus {
 	background-color: white;
-	padding: 1em;
+	/* padding: 1em; */
 	outline: 0;
 	opacity: 0.25;
 }
