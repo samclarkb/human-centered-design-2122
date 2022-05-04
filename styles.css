@@ -21,6 +21,7 @@ table th {
 
 textarea {
 	padding: 0.5em;
+	font-size: 2.5em;
 }
 
 a {
@@ -464,4 +465,39 @@ button {
 /* interactie */
 #dag > div:nth-of-type(2) > div:nth-of-type(5) > div::before {
 	animation: explosie3 2s ease-in-out infinite;
+}
+
+#dag a,
+#backButton {
+	transform: translate(1000%, -1500%) rotate(180deg);
+	color: pink;
+	opacity: 0.05;
+	letter-spacing: 2em;
+}
+
+#dag a:focus,
+#backButton:focus {
+	animation: draaien 0.1s infinite;
+	outline: none;
+}
+
+@keyframes draaien {
+	0% {
+		opacity: 100%;
+		/* transform: ; */
+		transform: translate(1000%, -1500%) rotate(0deg);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translate(1000%, -1500%) rotate(360deg);
+		/* transform: ; */
+	}
+}
+
+.bounce:focus {
+	background-color: white;
+	padding: 1em;
+	outline: 0;
+	opacity: 0.25;
 }

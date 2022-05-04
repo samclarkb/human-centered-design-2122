@@ -7,6 +7,7 @@ form.addEventListener('submit', e => {
 
 const saveFormInput = () => {
 	let input = document.getElementById('input')
+	let resultaten = document.getElementById('result')
 
 	if (input.value.lenght > 10) {
 		document.getElementById('result').textContent =
@@ -15,6 +16,7 @@ const saveFormInput = () => {
 		document.getElementById('result').textContent =
 			' Larissa, zo komt die tweede gouden plak er niet hoor' + input.value
 	} else {
+		resultaten.classList.add('bounce')
 		document.getElementById('result').textContent =
 			' De resultaten zijn nog niet om naar huis te schrijven, maar het is meer dan ik gewend ben van je ' +
 			input.value
