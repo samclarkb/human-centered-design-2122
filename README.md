@@ -40,6 +40,9 @@ Hier een overzicht van de exclusive design principles en hoe ik deze heb toegepa
 <details>
 
  <summary> Study situation 🧠 </summary> 
+ Ik heb verschillende dingen gedaan om me te verdiepen in Larissa. Ten eerste heb ik mijn applicatie natuurlijk drie keer met haar mogen testen.
+ 
+ Ik ben applicaties zelf ook gaan gebruiken met voice over. Dit heeft mij heel erg geholpen met het begrijpen van de wensen van Larissa.
  
 
 </details>
@@ -47,7 +50,7 @@ Hier een overzicht van de exclusive design principles en hoe ik deze heb toegepa
 <details>
 
  <summary> Prioritise identity 🚴 </summary> 
- Larissa gaf aan dat Oranje haar lievelingskleur is, dus heb ik er zoveel mogelijk oranje in verwerkt. Ook gaf Larissa aan een zwarte achtergrond te willen hebben in plaats van de gebruikelijke witte achtergrond. 
+ Larissa gaf aan dat Oranje haar lievelingskleur is, dus heb ik er zoveel mogelijk oranje in verwerkt. Ook gaf Larissa aan een zwarte achtergrond te willen hebben in plaats van de gebruikelijke witte achtergrond.   
  
 Larissa is een vrolijke dame met erg veel humor. Ze verteld ook vaak over hoe laks zij is als het aankomt op trainen. Larissa is niet de typische topsporter. Hierom heb ik een functie geschreven die op basis van de intensiteit van een training, een bericht weergeeft. Zo krijgt Larissa dit te horen wanneer zij minder dan 75 characters in de textarea invoerd: 'Larissa, je had deze dag beter thuis kunnen blijven'.
  
