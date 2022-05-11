@@ -110,8 +110,10 @@ span {
 	opacity: 0.25;
 }
 
-button {
+button,
+input[type='submit'] {
 	background-color: orange;
+	color: white;
 	padding: 2.5em 5em;
 	border: none;
 	border-radius: 1em;
@@ -493,11 +495,4 @@ button {
 		transform: translate(1000%, -1500%) rotate(360deg);
 		/* transform: ; */
 	}
-}
-
-.bounce:focus {
-	background-color: white;
-	/* padding: 1em; */
-	outline: 0;
-	opacity: 0.25;
 }
