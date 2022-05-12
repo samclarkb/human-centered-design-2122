@@ -93,6 +93,7 @@ Mocht je er zelf wat aan toe willen voegen, neem vooral je tijd!
 ## :mag_right: Recources 
 - https://axesslab.com/what-is-a-screen-reader/
 - https://exclusive-design.vasilis.nl/principles/
+- https://www.youtube.com/watch?v=X1KR4u94cho
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/human-centered-design-2122/blob/main/LICENSE)
