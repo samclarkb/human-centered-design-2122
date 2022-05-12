@@ -29,6 +29,17 @@ Alle topwielrenners krijgen om de zoveel tijd een Excel sheet toegestuurd waarin
 Ik heb een applictaie gemaakt 
  
 **Uiterlijk:** 
+Home pagina:
+
+<img src='https://github.com/samclarkb/human-centered-design-2122/blob/main/images/Gif1.gif' width='750px' />
+
+Maand pagina:
+
+<img src='https://github.com/samclarkb/human-centered-design-2122/blob/main/images/Gif2.gif' width='750px' />
+
+Dag pagina:
+
+<img src='https://github.com/samclarkb/human-centered-design-2122/blob/main/images/Gif3.gif' width='750px' />
 
 ## :chart_with_upwards_trend: Process
 
