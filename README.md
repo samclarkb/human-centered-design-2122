@@ -40,12 +40,9 @@ Hier een overzicht van de exclusive design principles en hoe ik deze heb toegepa
 <details>
 
  <summary> Study situation 🧠 </summary> 
- Ik heb verschillende dingen gedaan om Larissa zo goed mogelijk te begrijpen. Ten eerste heb ik mijn applicatie drie keer met Larissa mogen testen. Deze testen hebben mij veel bijgebracht over hoe mensen het web gebruiken met een screenreader/voice over:
- - Semantiek binnen code is erg belangrijk voor blinde/slecht ziende mensen 
- - Je moet de gebruiker meer context geven door middel van tekst, omdat ze niks kunnen zien
- - 
+ Ik heb verschillende dingen gedaan om Larissa zo goed mogelijk te begrijpen. Ten eerste heb ik mijn applicatie drie keer met Larissa mogen testen. Deze testen hebben mij veel bijgebracht over hoe mensen het web gebruiken met een screenreader/voice over: Semantiek binnen code is erg belangrijk voor blinde/slecht ziende mensen, je moet de gebruiker meer context geven door middel van tekst, omdat ze niks kunnen zien.
  
- Ik ben applicaties zelf ook gaan gebruiken met voice over. Dit heeft mij ook geholpen met het optimaliseren van de app.
+Ik ben applicaties zelf ook gaan gebruiken met voice over. Dit heeft mij ook geholpen met het optimaliseren van de app.
  
 
 </details>
