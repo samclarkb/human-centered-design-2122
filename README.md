@@ -40,9 +40,12 @@ Hier een overzicht van de exclusive design principles en hoe ik deze heb toegepa
 <details>
 
  <summary> Study situation 🧠 </summary> 
- Ik heb verschillende dingen gedaan om me te verdiepen in Larissa. Ten eerste heb ik mijn applicatie natuurlijk drie keer met haar mogen testen.
+ Ik heb verschillende dingen gedaan om Larissa zo goed mogelijk te begrijpen. Ten eerste heb ik mijn applicatie drie keer met Larissa mogen testen. Deze testen hebben mij veel bijgebracht over hoe mensen het web gebruiken met een screenreader/voice over:
+ - Semantiek binnen code is erg belangrijk voor blinde/slecht ziende mensen 
+ - Je moet de gebruiker meer context geven door middel van tekst, omdat ze niks kunnen zien
+ - 
  
- Ik ben applicaties zelf ook gaan gebruiken met voice over. Dit heeft mij heel erg geholpen met het begrijpen van de wensen van Larissa.
+ Ik ben applicaties zelf ook gaan gebruiken met voice over. Dit heeft mij ook geholpen met het optimaliseren van de app.
  
 
 </details>
@@ -74,7 +77,7 @@ Op ieder element heb ik een tabindex van 0 toegepast. Dit zorgt ervoor dat je na
 
  <summary> add nonsense :stuck_out_tongue_winking_eye:</summary> 
  
- Op de pagina waar Larissa de resultaten van haar training invoerd heb ik redelijk wat nonsense toegevoegd. Ik heb een sterrenlucht met vuurwerk als achtergrond gebruikt
+ Op de pagina waar Larissa de resultaten van haar training invoerd heb ik redelijk wat nonsense toegevoegd. Ik heb een sterrenlucht met vuurwerk als achtergrond gebruikt. Voor de meeste mensen wordt dit hoogstwaarschijnlijk als irritant ervaren, maar Larissa gaf aan dat ze het leuk vond dat dit scherm anders was ten opzichte van de andere schermen.
  
 </details>
 
@@ -82,6 +85,7 @@ Op ieder element heb ik een tabindex van 0 toegepast. Dit zorgt ervoor dat je na
 ## :memo: Wishlist
 Er zijn een paar dingen waar ik niet aan toe ben gekomen, maar graag had willen doen:
 * Real data gebruiken/dynamische routes gebruiken
+* De voice over tekst op een andere manier iets laten zeggen, bijvoorbeeld schreeuwend
 
 ## :wrench: Installation
 
@@ -91,6 +95,7 @@ Mocht je er zelf wat aan toe willen voegen, neem vooral je tijd!
 
 ## :mag_right: Recources 
 - https://axesslab.com/what-is-a-screen-reader/
+- https://exclusive-design.vasilis.nl/principles/
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/human-centered-design-2122/blob/main/LICENSE)
