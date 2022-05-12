@@ -42,18 +42,23 @@ Larissa gebruikt alleen geen excel sheets voor haar trainingen. Larissa traint e
 
 
 ## :bulb: Concept
-Ik heb een applictaie gemaakt 
+De applicatie stelt Larissa in staat om trainingsresultaten na afloop van een training in te vullen. Ook kan ze haar ingevoerde trainingsresultaten op een later moment bekeijken. De applicatie is specifiek gemaakt voor Larissa en daarom is de applicatie voice over/screenreader vriendelijk. Dit houdt in dat Larissa op ieder element kan tabben en er rekening is gehouden met semantiek. Daarnaast is er rekening gehouden met de vier exclusive design principles (study situation, prioritise identity, ignore conventions, add nonsense). Deze worden later in de Read.me toegelicht.
  
-**Uiterlijk:** 
-Home pagina:
+**Home pagina:**
+
+Wanneer larissa de app opent krijgt Larissa twee opties. Ze kan ervoor kiezen om gelijk naar een speciefieke datum te navigeren. Of ze kiest ervoor om eerst naar een specifieke maand te navigeren om vanuit daar naar een speciefieke datum te navigeren.
 
 <img src='https://github.com/samclarkb/human-centered-design-2122/blob/main/images/Gif1.gif' width='750px' />
 
-Maand pagina:
+**Maand pagina:**
+
+Op deze pagina kan Larissa naar een specifieke dag navigeren. De tabel is zo geprogrammeerd dat de screenreader verteld op welke dag Larissa zich bevindt. Dus wanneer Larissa 12 mei heeft geselcteerd, krijgt ze ook te horen dat deze dag op een dinsdag valt.
 
 <img src='https://github.com/samclarkb/human-centered-design-2122/blob/main/images/Gif2.gif' width='750px' />
 
-Dag pagina:
+**Dag pagina:**
+
+Op deze pagina kan Larissa haar trainingsresultaten invullen. Wanneer zij deze heeft ingevuld, krijgt zij aan de hand van hoeveel characters ze heeft ingevuld een berichtje te horen. Als zij minder dan 75 characters heeft ingevuld krijgt ze bijvoorbeeld 'Larissa, je had deze dag beter thuis kunnen blijven' te horen. De ingevoerde tekst wordt vervolgens ook weergegeven onder de textarea.
 
 <img src='https://github.com/samclarkb/human-centered-design-2122/blob/main/images/Gif3.gif' width='750px' />
 
@@ -89,7 +94,7 @@ Vanwege de slecht functionerende ogen van Larissa heb ik de knoppen uit proporti
 
 <details>
 
- <summary> add nonsense :stuck_out_tongue_winking_eye:</summary> 
+ <summary> Add nonsense :stuck_out_tongue_winking_eye:</summary> 
  
 Op de pagina waar Larissa de resultaten van haar training invoerd heb ik redelijk wat nonsense toegevoegd. Ik heb een sterrenlucht met vuurwerk als achtergrond gebruikt. Voor de meeste mensen wordt dit hoogstwaarschijnlijk als irritant ervaren, maar Larissa gaf aan dat ze het leuk vond dat dit scherm anders was ten opzichte van de andere schermen.
  
