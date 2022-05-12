@@ -91,9 +91,9 @@ Mocht je er zelf wat aan toe willen voegen, neem vooral je tijd!
 ``` git clone https://github.com/samclarkb/browser-technologies-2122.git ```
 
 ## :mag_right: Recources 
-- https://axesslab.com/what-is-a-screen-reader/
-- https://exclusive-design.vasilis.nl/principles/
-- https://www.youtube.com/watch?v=X1KR4u94cho
+- Göransson, D. (2019). What is a screen reader? What is a screen reader? https://axesslab.com/what-is-a-screen-reader/
+- Van Gemert, V. (2022). Exclusive Design Principles. Exclusive Design Principles. https://exclusive-design.vasilis.nl/principles/
+- Watson, L. [Leonie Watson]. (2020, 28 september). How screen readers navigate data tables [Video]. YouTube. https://www.youtube.com/watch?v=X1KR4u94cho
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/human-centered-design-2122/blob/main/LICENSE)
