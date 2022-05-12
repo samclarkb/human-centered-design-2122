@@ -9,16 +9,20 @@
 		<script src="script.js" defer></script>
 	</head>
 	<body>
-		<h1 tabindex="0">
-			Hi Larissa, kies een jaar en een maand waarvan jij jouw trainingsschema wil zien
-		</h1>
+		<h1 tabindex="0">Hi Larissa, Welkom!</h1>
+		<p tabindex="0" id="intro">
+			Op deze pagina heb je twee mogelijkheden om naar een trainigsdag te navigeren. Ten
+			eerste krijg je de mogelijkheid om naar een specifieke dag te navigeren. De tweede optie
+			is om eerst een jaartal en een maand te selecteren. Waanneer je dit gekozen hebt, wordt
+			je geleidt naar een andere pagina waar je vervolgens kan kiezen uit een specifieke dag.
+		</p>
 		<form action="day.html">
-			<label tabindex="0" for="specific">Navigeer naar een spcifieke datum</label>
+			<label tabindex="0" for="specific">Optie 1: navigeer naar een spcifieke datum</label>
 			<input required name="specific" type="date" />
 			<button type="submit">zoek</button>
 		</form>
 		<form action="month.html">
-			<label for="jaar" tabindex="0">Kies een jaar</label>
+			<label for="jaar" tabindex="0">Optie 2: navigeer naar een specifieke maand</label>
 			<select name="jaar" id="jaar" required>
 				<option value="2022">2022</option>
 				<option value="2021">2021</option>
@@ -29,35 +33,20 @@
 				<option value="2016">2016</option>
 				<option value="2015">2015</option>
 			</select>
-			<label for="maand" tabindex="0">Kies een maand</label>
-			<section id="maandLinkjes">
-				<input name="maand" id="jan" type="radio" required />
-				<label for="jan">Januari</label>
-				<input name="maand" id="feb" type="radio" />
-				<label for="feb">Februari</label>
-				<input name="maand" id="maart" type="radio" />
-				<label for="maart">Maart</label>
-				<input name="maand" id="apr" type="radio" />
-				<label for="apr">April</label>
-				<input name="maand" id="mei" type="radio" />
-				<label for="mei">Mei</label>
-				<input name="maand" id="jun" type="radio" />
-				<label for="jun">Juni</label>
-				<input name="maand" id="jul" type="radio" />
-				<label for="jul">Juli</label>
-				<input name="maand" id="aug" type="radio" />
-				<label for="aug">Augustus</label>
-				<input name="maand" id="sept" type="radio" />
-				<label for="sept">September</label>
-				<input name="maand" id="okt" type="radio" />
-				<label for="okt">Oktober</label>
-				<input name="maand" id="nov" type="radio" />
-				<label for="nov">November</label>
-				<input name="maand" id="dec" type="radio" />
-				<label for="dec">December</label>
-
-				<input type="submit" />
-			</section>
 		</form>
+		<section id="maandLinkjes">
+			<a href="month.html">Januari</a>
+			<a href="month.html"> Februari</a>
+			<a href="month.html"> Maart</a>
+			<a href="month.html"> April</a>
+			<a href="month.html"> Mai</a>
+			<a href="month.html"> Juni</a>
+			<a href="month.html"> Juli</a>
+			<a href="month.html"> Augustus</a>
+			<a href="month.html"> September</a>
+			<a href="month.html"> Oktober</a>
+			<a href="month.html"> November</a>
+			<a href="month.html"> December</a>
+		</section>
 	</body>
 </html>

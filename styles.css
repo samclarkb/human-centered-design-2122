@@ -40,6 +40,11 @@ td {
 	height: 5.5em;
 }
 
+td a {
+	display: flex;
+	flex-direction: column;
+}
+
 td a:focus {
 	background-color: orange;
 	outline: none;
@@ -55,7 +60,7 @@ td a:focus {
 	align-items: center;
 }
 
-#maandLinkjes label {
+#maandLinkjes a {
 	background-color: ORANGE;
 	display: flex;
 	align-items: center;
@@ -69,12 +74,12 @@ td a:focus {
 	box-shadow: 0.2em 0.2em 0.2em rgba(250, 250, 250, 0.25);
 }
 
-#maandLinkjes input[type='radio']:hover + label {
+#maandLinkjes a:hover {
 	background-color: blue;
 	cursor: pointer;
 }
 
-#maandLinkjes input[type='radio']:focus + label {
+#maandLinkjes a:focus {
 	background-color: blue;
 	cursor: pointer;
 	border: solid white 0.25em;
@@ -118,6 +123,11 @@ input[type='submit'] {
 	border: none;
 	border-radius: 1em;
 	margin: 2.5em;
+}
+
+button:focus,
+input[type='submit']:focus {
+	background-color: blue;
 }
 
 #dag {
@@ -471,13 +481,12 @@ input[type='submit'] {
 
 #dag a,
 #backButton {
-	transform: translate(1000%, -1500%) rotate(180deg);
+	transform: rotate(180deg);
 	color: pink;
 	opacity: 0.05;
 	letter-spacing: 2em;
 }
 
-#dag a:focus,
 #backButton:focus {
 	animation: draaien 0.1s infinite;
 	outline: none;
@@ -486,13 +495,30 @@ input[type='submit'] {
 @keyframes draaien {
 	0% {
 		opacity: 100%;
-		/* transform: ; */
-		transform: translate(1000%, -1500%) rotate(0deg);
+
+		transform: rotate(0deg);
 	}
 
 	100% {
 		opacity: 100%;
-		transform: translate(1000%, -1500%) rotate(360deg);
-		/* transform: ; */
+		transform: rotate(360deg);
 	}
+}
+
+td span {
+	/* display: none; */
+	font-size: 0.1em;
+	display: bklock;
+	/* opacity: 0; */
+}
+
+#intro {
+	max-width: 45em;
+	text-align: center;
+}
+
+#dag div:last-of-type {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
 }
